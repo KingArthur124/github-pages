@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funny Form Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        form {
+            background-color: white;
+            padding: 20px;
+            margin: 50px auto;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #333;
+        }
+        label, select, input {
+            display: block;
+            margin: 10px auto;
+            width: 80%;
+        }
+        button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        p {
+            color: #888;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>FILL THE FORM</h1>
+        <p>(Ignore kiya to teri mkc)</p>
+
+        <label for="name">Name??</label>
+        <input type="text" id="name" name="name" placeholder="Apna naam likh de bhai">
+
+        <label for="password">Password??</label>
+        <input type="password" id="password" name="password" placeholder="Ho sake to bank ka de">
+
+        <label for="dob">DOB:</label>
+        <select id="day" name="day">
+            <option value="">Day</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <!-- Add more options as needed -->
+        </select>
+        <select id="month" name="month">
+            <option value="">Month</option>
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <!-- Add more options as needed -->
+        </select>
+        <select id="year" name="year">
+            <option value="">Year</option>
+            <option value="2000">2000</option>
+            <option value="2001">2001</option>
+            <!-- Add more options as needed -->
+        </select>
+
+        <label for="gender">Choose your gender:</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="email">Email</option>
+        </select>
+
+        <label for="language">Choose your native language:</label>
+        <select id="language" name="language">
+            <option value="gay-cn">我是同性恋</option>
+            <option value="gay-jp">私は同性愛者です</option>
+            <option value="gay-kr">나 게이야</option>
+            <option value="illiterate">Anpadh gawar hu 🙂</option>
+        </select>
+
+        <button type="submit">Submit kar de yaar</button>
+    </form>
+</body>
+</html>
